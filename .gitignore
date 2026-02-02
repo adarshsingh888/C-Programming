@@ -1,0 +1,9 @@
+# Ignore object files
+*.o
+
+# Ignore all compiled executables
+*
+!*.c
+!*.h
+!Makefile
+!.gitignore

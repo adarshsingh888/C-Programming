@@ -31,7 +31,7 @@ int main()
     printf("This is the change \n");
 
     // this is going to staged area
-    // version 3.0
+    // version 4
 
     return 0;
 }
