@@ -1,9 +1,16 @@
 # Ignore object files
 *.o
 
-# Ignore all compiled executables
-*
+# Ignore compiled executables (no extension)
+Hello
+a.out
+
+# Allow directories
+!*/
+
+# Allow C source and header files
 !*.c
 !*.h
-!Makefile
+
+# Allow git files
 !.gitignore
