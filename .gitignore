@@ -1,16 +1,19 @@
 # Ignore object files
 *.o
 
-# Ignore compiled executables (no extension)
-Hello
-a.out
+# Ignore all files by default
+*
 
-# Allow directories
+# Allow all directories
 !*/
 
-# Allow C source and header files
+# Allow C source and headers everywhere
 !*.c
 !*.h
+
+# Allow VS Code config (optional)
+!.vscode/
+!.vscode/**
 
 # Allow git files
 !.gitignore
